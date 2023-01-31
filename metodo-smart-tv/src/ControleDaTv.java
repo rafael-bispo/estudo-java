@@ -1,5 +1,5 @@
 /**
-* <h1>SmartTv</h1>
+* <h1>ControleDaTv</h1>
 * Este é um exemplo para o entedimento relativo a classes, atributos e métodos.
 * <p>
 * <b>Note:</b> Leia atentamente a documentação desta classes
