@@ -4,7 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "java-terminal_f5dc4e02"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
@@ -23,7 +29,12 @@
             "name": "Launch SobreMim",
             "request": "launch",
             "mainClass": "SobreMim",
-            "args": ["Rafael", "Bispo", "28", "1.74"],
+            "args": [
+                "Rafael",
+                "Bispo",
+                "28",
+                "1.74"
+            ],
             "projectName": "java-terminal_f5dc4e02"
         }
     ]
