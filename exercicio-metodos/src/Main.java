@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
 
+        //Trecho da main que executa os métodos da calculadora
         double resultado, numero1, numero2;
         int verificador;
-
 
         System.out.println("Digite:\n1-Para soma\n2-Para subtração\n3-Para multiplicação\n4-Para divisão\n\nOpção: ");
         verificador = leitura.nextInt();
@@ -40,7 +40,9 @@ public class Main {
                 break;
         }
 
-
-        //System.out.println(resultado);
+        //Trecho da main que executa os métodos de mensagem
+        System.out.println("Digite a hora para receber uma mensagem: ");
+        int hora = leitura.nextInt();
+        Mensagem.enviarMensagem(hora);
     }
 }
