@@ -17,6 +17,7 @@ public class Main {
         * Este programa poderia ser melhorado com uma entrada e saída mais amigável.
         * Deixei da forma que entreguei à DIO. Pois este é o formato que eles aceitam
         * para poder passa nos testes com sucesso.
+        * Teste para demonstrar o versionamento.
         * */
         System.out.println(mesada*entrada);
 
