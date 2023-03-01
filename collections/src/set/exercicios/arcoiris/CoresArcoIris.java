@@ -73,7 +73,7 @@ public class CoresArcoIris {
         //Limpando o conjunto
         arcoiris.clear();
 
-        //Verificando se está vazio;
+        //Verificando se está vazio;oyhouiyh
         System.out.println("\nVerificando se foi limpo o conjunto: "+arcoiris.isEmpty());
     }
 }
