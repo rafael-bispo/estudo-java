@@ -4,6 +4,9 @@ import jakarta.persistence.*;
 
 
 //Programa estava dando ero sem o table abaixo
+//Provavelmente pelo fato de que já existe alguma propriedade
+//dentro do banco que receba o nome user
+//mudando o nome da tabela, deu certo compilar
 @Entity
 @Table(name = "tab_user")
 public class User {
